@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  margin: 50px auto 0 auto;
+  line-height: 2;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.intro {
+  display: inline-block;
+  width: 30%;
+}
+
+.top-container {
+  background-color: #d4f8e8;
+  width: 100%;
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+}
+
+.many {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 18%;
+  top: 5%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 15%;
+  top: 68%;
+  z-index: 1;
+}
+
+.img-container {
+  display: inline-block;
+}
+
+.img-cropper {
+  width: 192px;
+  height: 192px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+.profile-pic {
+  margin: 0 auto;
+  margin-left: -22%;
+   height: 100%;
+   width: auto;
+}
+
+.skill-pic1 {
+  width: 25%;
+  max-width: 150px;
+  border-radius: 10em;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-pic2 {
+  width: 25%;
+  max-width: 150px;
+  border-radius: 10em;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.subtitle {
+  position: relative;
+  z-index: 2;
+  font-weight: normal;
+}
+
+.subtitle2 {
+  position: relative;
+  z-index: 2;
+}
+
+.img-mountain {
+  position: relative;
+  bottom: 0;
+}
